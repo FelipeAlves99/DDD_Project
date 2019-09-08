@@ -1,7 +1,16 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
   </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Entities\Company\" />
+    <Folder Include="Interfaces\IRepository\" />
+    <Folder Include="Interfaces\IService\" />
+    <Folder Include="Services\CompanyService\" />
+    <Folder Include="Services\ItemService\" />
+    <Folder Include="Services\OrderService\" />
+  </ItemGroup>
 
 </Project>

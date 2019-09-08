@@ -1,6 +1,6 @@
 ﻿namespace DDD.Client
 {
-    partial class Form1
+    partial class frmMainMenu
     {
         /// <summary>
         /// Variável de designer necessária.
