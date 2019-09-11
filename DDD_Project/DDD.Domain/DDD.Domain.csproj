@@ -5,11 +5,14 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Interfaces\IRepository\" />
-    <Folder Include="Interfaces\IService\" />
+    <Folder Include="Interfaces\IService\CompanyServices\" />
+    <Folder Include="Interfaces\IService\ItemServices\" />
+    <Folder Include="Interfaces\IService\RevenueServices\" />
+    <Folder Include="Interfaces\IService\OrderServices\" />
     <Folder Include="Services\CompanyService\" />
     <Folder Include="Services\ItemService\" />
     <Folder Include="Services\OrderService\" />
+    <Folder Include="Services\RevenueServices\" />
   </ItemGroup>
 
 </Project>
