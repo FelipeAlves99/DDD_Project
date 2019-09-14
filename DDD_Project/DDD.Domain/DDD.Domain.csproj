@@ -5,9 +5,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Interfaces\IService\ItemServices\" />
-    <Folder Include="Interfaces\IService\RevenueServices\" />
-    <Folder Include="Interfaces\IService\OrderServices\" />
     <Folder Include="Services\CompanyService\" />
     <Folder Include="Services\ItemService\" />
     <Folder Include="Services\OrderService\" />
