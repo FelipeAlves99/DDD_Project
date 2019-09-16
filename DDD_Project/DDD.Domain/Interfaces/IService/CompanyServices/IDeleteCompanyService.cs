@@ -2,6 +2,6 @@
 {
     public interface IDeleteCompanyService
     {
-        void DeleteCompanyService(string cnpj);
+        void DeleteCompanyService(int id);
     }
 }
