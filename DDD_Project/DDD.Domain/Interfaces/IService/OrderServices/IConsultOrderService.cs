@@ -6,7 +6,7 @@ namespace DDD.Domain.Interfaces.IService.OrderServices
     public interface IConsultOrderService
     {
         IList<Order> ConsultOrderService();
-        Order ConsultOrderByCompany(int companyName);
+        IList<Order> ConsultOrderByCompany(int companyId);
         Order ConsultOrderById(int orderId);
 
     }

@@ -7,7 +7,7 @@ namespace DDD.Domain.Interfaces.IRepository
 {
     public interface IOrderRepository
     {
-        Order PostOrder(Order order);
+        int PostOrder(Order order);
 
         /// <summary>
         /// Is used to call the ItemRepository Patch method to update it's stock.
