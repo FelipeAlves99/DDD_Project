@@ -1,0 +1,8 @@
+C:\Users\FELIPEDECARVALHOALVE\source\repos\DDD_Project\DDD_Project\DDD.Infra.Data.Sql\bin\Debug\netcoreapp2.2\DDD.Infra.Data.Sql.deps.json
+C:\Users\FELIPEDECARVALHOALVE\source\repos\DDD_Project\DDD_Project\DDD.Infra.Data.Sql\bin\Debug\netcoreapp2.2\DDD.Infra.Data.Sql.dll
+C:\Users\FELIPEDECARVALHOALVE\source\repos\DDD_Project\DDD_Project\DDD.Infra.Data.Sql\obj\Debug\netcoreapp2.2\DDD.Infra.Data.Sql.csprojAssemblyReference.cache
+C:\Users\FELIPEDECARVALHOALVE\source\repos\DDD_Project\DDD_Project\DDD.Infra.Data.Sql\obj\Debug\netcoreapp2.2\DDD.Infra.Data.Sql.csproj.CoreCompileInputs.cache
+C:\Users\FELIPEDECARVALHOALVE\source\repos\DDD_Project\DDD_Project\DDD.Infra.Data.Sql\obj\Debug\netcoreapp2.2\DDD.Infra.Data.Sql.AssemblyInfoInputs.cache
+C:\Users\FELIPEDECARVALHOALVE\source\repos\DDD_Project\DDD_Project\DDD.Infra.Data.Sql\obj\Debug\netcoreapp2.2\DDD.Infra.Data.Sql.AssemblyInfo.cs
+C:\Users\FELIPEDECARVALHOALVE\source\repos\DDD_Project\DDD_Project\DDD.Infra.Data.Sql\bin\Debug\netcoreapp2.2\DDD.Infra.Data.Sql.runtimeconfig.json
+C:\Users\FELIPEDECARVALHOALVE\source\repos\DDD_Project\DDD_Project\DDD.Infra.Data.Sql\bin\Debug\netcoreapp2.2\DDD.Infra.Data.Sql.runtimeconfig.dev.json
