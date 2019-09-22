@@ -6,6 +6,8 @@ namespace DDD.Infra.Data.Sql.Data.Context
 {
     public class DDDProjectContext : DbContext
     {
+        AppConfiguration appConfiguration = new AppConfiguration();
+
         public DDDProjectContext() : base()
         { }
 
@@ -31,7 +33,7 @@ namespace DDD.Infra.Data.Sql.Data.Context
         protected override void OnConfiguring (DbContextOptionsBuilder optionsBuilder)
         {
             if (optionsBuilder.IsConfigured)
-                optionsBuilder.UseSqlServer("ConnectionString");
+                optionsBuilder.UseSqlServer(appConfiguration.ConnectionString);
         }
 
     }
