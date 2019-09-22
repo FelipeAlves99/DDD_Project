@@ -1,5 +1,6 @@
 ﻿using DDD.Domain.Entities;
 using DDD.Domain.Entities.CompanyEntity;
+using DDD.Infra.Data.Sql.Data.Mapping;
 using Microsoft.EntityFrameworkCore;
 
 namespace DDD.Infra.Data.Sql.Data.Context
@@ -14,6 +15,8 @@ namespace DDD.Infra.Data.Sql.Data.Context
         public DDDProjectContext(DbContextOptions<DDDProjectContext> options) : base(options)
         { }
 
+        #region DbSet's
+
         public DbSet<Company> Companies { get; set; }
         public DbSet<Atividade_Principal> MainActivities { get; set; }
         public DbSet<Atividade_Secundaria> SecundaryActivities { get; set; }
@@ -21,12 +24,18 @@ namespace DDD.Infra.Data.Sql.Data.Context
         public DbSet<Order> Orders { get; set; }
         public DbSet<ItemOrder> ItemOrders { get; set; }
 
+        #endregion
+
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             base.OnModelCreating(modelBuilder);
             modelBuilder.ForSqlServerUseIdentityColumns();
 
-            //mapping
+            #region Mapping
+
+            modelBuilder.Entity<Company>(new CompanyMapping().Configure);
+
+            #endregion
 
         }
 
