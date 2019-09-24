@@ -34,6 +34,7 @@ namespace DDD.Infra.Data.Sql.Data.Context
             #region Mapping
 
             modelBuilder.Entity<Company>(new CompanyMapping().Configure);
+            modelBuilder.Entity<Atividade_Principal>(new MainActivityMapping().Configure);
 
             #endregion
 

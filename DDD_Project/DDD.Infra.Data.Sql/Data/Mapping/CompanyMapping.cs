@@ -4,7 +4,7 @@ using Microsoft.EntityFrameworkCore.Metadata.Builders;
 
 namespace DDD.Infra.Data.Sql.Data.Mapping
 {
-    public class CompanyMapping
+    public class CompanyMapping : IEntityTypeConfiguration<Company>
     {
         public void Configure(EntityTypeBuilder<Company> builder)
         {

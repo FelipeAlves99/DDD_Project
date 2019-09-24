@@ -10,7 +10,7 @@ namespace DDD.Domain.Entities.CompanyEntity
         public string Text { get; set; }
         public string Code { get; set; }
         
-        public int EmpresaId { get; set; }      
-        public Company Empresa { get; set; }
+        public int CompanyId { get; set; }      
+        public Company Company { get; set; }
     }
 }
