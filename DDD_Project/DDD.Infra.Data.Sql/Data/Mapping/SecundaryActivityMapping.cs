@@ -1,19 +1,16 @@
 ﻿using DDD.Domain.Entities.CompanyEntity;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
-using System;
-using System.Collections.Generic;
-using System.Text;
 
 namespace DDD.Infra.Data.Sql.Data.Mapping
 {
-    public class MainActivityMapping : IEntityTypeConfiguration<Atividade_Principal>
+    public class SecundaryActivityMapping : IEntityTypeConfiguration<Atividade_Secundaria>
     {
-        public void Configure(EntityTypeBuilder<Atividade_Principal> builder)
+        public void Configure(EntityTypeBuilder<Atividade_Secundaria> builder)
         {
-            builder.ToTable("MainActivity")
+            builder.ToTable("SeundaryActivity")
                 .HasOne(a => a.Company)
-                .WithMany(c => c.Atividade_Principal)
+                .WithMany(c => c.Atividades_Secundarias)
                 .HasForeignKey(c => c.CompanyId)
                 .OnDelete(DeleteBehavior.Cascade);
         }
