@@ -32,6 +32,8 @@ namespace DDD.Domain.Entities.CompanyEntity
         public string Situacao_Especial { get; private set; }
         public string Data_Situacao_Especial { get; private set; }
 
+        public IList<Order> Orders { get; private set; }
+
         //validations
     }
 }
