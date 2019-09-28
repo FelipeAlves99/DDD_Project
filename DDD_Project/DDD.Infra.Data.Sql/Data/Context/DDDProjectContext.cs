@@ -38,6 +38,7 @@ namespace DDD.Infra.Data.Sql.Data.Context
             modelBuilder.Entity<Atividade_Secundaria>(new SecundaryActivityMapping().Configure);
             modelBuilder.Entity<Item>(new ItemMapping().Configure);
             modelBuilder.Entity<Order>(new OrderMapping().Configure);
+            modelBuilder.Entity<ItemOrder>(new ItemOrderMapping().Configure);
 
             #endregion
 
