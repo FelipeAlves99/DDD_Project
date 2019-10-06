@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using DDD.Domain.Interfaces.IRepository;
+﻿using DDD.Domain.Interfaces.IRepository;
 using DDD.Domain.Interfaces.IService.CompanyServices;
 using DDD.Domain.Interfaces.IService.ItemServices;
 using DDD.Domain.Interfaces.IService.OrderServices;
@@ -13,13 +9,14 @@ using DDD.Infra.Data.Sql.Data.Context;
 using DDD.Infra.Data.Sql.Repository;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
-using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
-using Microsoft.Extensions.Options;
+using Microsoft.Extensions.PlatformAbstractions;
+using Swashbuckle.AspNetCore.Swagger;
+using System.IO;
 
 namespace DDD.WebService
 {
@@ -74,7 +71,7 @@ namespace DDD.WebService
             #region Order DI
 
             services.AddScoped<IAddOrderService, AddOrderService>();
-            services.AddScoped<IConsultOrderService, ConsultOrderService>();            
+            services.AddScoped<IConsultOrderService, ConsultOrderService>();
             services.AddScoped<IUpdateOrderService, UpdateOrderService>();
 
             #endregion
@@ -85,11 +82,43 @@ namespace DDD.WebService
 
             #endregion
 
+            #region Swagger
+
+            services.AddSwaggerGen(c =>
+            {
+                c.SwaggerDoc("v1",
+                    new Info
+                    {
+                        Title = "Company Register",
+                        Version = "v2",
+                        Description = "Simple CRUD with EntityFramework",
+                        Contact = new Contact
+                        {
+                            Name = "Felipe Alves",
+                            Url = "https://felipealves99.github.io/"
+                        }
+                    });
+
+                string applicationPath =
+                    PlatformServices.Default.Application.ApplicationBasePath;
+                string applicationName =
+                    PlatformServices.Default.Application.ApplicationName;
+                string xmlDocPath =
+                    Path.Combine(applicationPath, $"{applicationName}.xml");
+
+                c.IncludeXmlComments(xmlDocPath);
+            });
+
+            #endregion
+
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
-        public void Configure(IApplicationBuilder app, IHostingEnvironment env)
+        public void Configure(IApplicationBuilder app, IHostingEnvironment env, ILoggerFactory logger)
         {
+            logger.AddConsole(Configuration.GetSection("Logging"));
+            logger.AddDebug();
+
             if (env.IsDevelopment())
             {
                 app.UseDeveloperExceptionPage();
@@ -102,6 +131,12 @@ namespace DDD.WebService
 
             app.UseHttpsRedirection();
             app.UseMvc();
+
+            app.UseSwagger();
+            app.UseSwaggerUI(c =>
+            {
+                c.SwaggerEndpoint("/swagger/v1/swagger.json", "Company Register");
+            });
         }
     }
 }

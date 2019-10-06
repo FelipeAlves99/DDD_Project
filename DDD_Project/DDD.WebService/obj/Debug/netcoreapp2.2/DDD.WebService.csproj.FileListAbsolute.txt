@@ -1,0 +1,9 @@
+C:\Users\FELIPEDECARVALHOALVE\source\repos\DDD_Project\DDD_Project\DDD.WebService\bin\Debug\netcoreapp2.2\DDD.Domain.dll
+C:\Users\FELIPEDECARVALHOALVE\source\repos\DDD_Project\DDD_Project\DDD.WebService\bin\Debug\netcoreapp2.2\DDD.Infra.Data.Sql.dll
+C:\Users\FELIPEDECARVALHOALVE\source\repos\DDD_Project\DDD_Project\DDD.WebService\obj\Debug\netcoreapp2.2\DDD.WebService.csprojAssemblyReference.cache
+C:\Users\FELIPEDECARVALHOALVE\source\repos\DDD_Project\DDD_Project\DDD.WebService\obj\Debug\netcoreapp2.2\DDD.WebService.csproj.CoreCompileInputs.cache
+C:\Users\FELIPEDECARVALHOALVE\source\repos\DDD_Project\DDD_Project\DDD.WebService\obj\Debug\netcoreapp2.2\DDD.WebService.RazorAssemblyInfo.cache
+C:\Users\FELIPEDECARVALHOALVE\source\repos\DDD_Project\DDD_Project\DDD.WebService\obj\Debug\netcoreapp2.2\DDD.WebService.RazorAssemblyInfo.cs
+C:\Users\FELIPEDECARVALHOALVE\source\repos\DDD_Project\DDD_Project\DDD.WebService\obj\Debug\netcoreapp2.2\DDD.WebService.AssemblyInfoInputs.cache
+C:\Users\FELIPEDECARVALHOALVE\source\repos\DDD_Project\DDD_Project\DDD.WebService\obj\Debug\netcoreapp2.2\DDD.WebService.AssemblyInfo.cs
+C:\Users\FELIPEDECARVALHOALVE\source\repos\DDD_Project\DDD_Project\DDD.WebService\obj\Debug\netcoreapp2.2\DDD.WebService.RazorTargetAssemblyInfo.cache
