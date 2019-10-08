@@ -6,3 +6,9 @@ C:\Users\FELIPEDECARVALHOALVE\source\repos\DDD_Project\DDD_Project\DDD.Infra.Dat
 C:\Users\FELIPEDECARVALHOALVE\source\repos\DDD_Project\DDD_Project\DDD.Infra.Data.Sql\obj\Debug\netcoreapp2.2\DDD.Infra.Data.Sql.AssemblyInfo.cs
 C:\Users\FELIPEDECARVALHOALVE\source\repos\DDD_Project\DDD_Project\DDD.Infra.Data.Sql\bin\Debug\netcoreapp2.2\DDD.Infra.Data.Sql.runtimeconfig.json
 C:\Users\FELIPEDECARVALHOALVE\source\repos\DDD_Project\DDD_Project\DDD.Infra.Data.Sql\bin\Debug\netcoreapp2.2\DDD.Infra.Data.Sql.runtimeconfig.dev.json
+C:\Users\FELIPEDECARVALHOALVE\source\repos\DDD_Project\DDD_Project\DDD.Infra.Data.Sql\bin\Debug\netcoreapp2.2\DDD.Infra.Data.Sql.pdb
+C:\Users\FELIPEDECARVALHOALVE\source\repos\DDD_Project\DDD_Project\DDD.Infra.Data.Sql\bin\Debug\netcoreapp2.2\DDD.Domain.dll
+C:\Users\FELIPEDECARVALHOALVE\source\repos\DDD_Project\DDD_Project\DDD.Infra.Data.Sql\bin\Debug\netcoreapp2.2\DDD.Domain.pdb
+C:\Users\FELIPEDECARVALHOALVE\source\repos\DDD_Project\DDD_Project\DDD.Infra.Data.Sql\obj\Debug\netcoreapp2.2\DDD.Infra.Data.Sql.csproj.CopyComplete
+C:\Users\FELIPEDECARVALHOALVE\source\repos\DDD_Project\DDD_Project\DDD.Infra.Data.Sql\obj\Debug\netcoreapp2.2\DDD.Infra.Data.Sql.dll
+C:\Users\FELIPEDECARVALHOALVE\source\repos\DDD_Project\DDD_Project\DDD.Infra.Data.Sql\obj\Debug\netcoreapp2.2\DDD.Infra.Data.Sql.pdb

@@ -7,3 +7,13 @@ C:\Users\FELIPEDECARVALHOALVE\source\repos\DDD_Project\DDD_Project\DDD.WebServic
 C:\Users\FELIPEDECARVALHOALVE\source\repos\DDD_Project\DDD_Project\DDD.WebService\obj\Debug\netcoreapp2.2\DDD.WebService.AssemblyInfoInputs.cache
 C:\Users\FELIPEDECARVALHOALVE\source\repos\DDD_Project\DDD_Project\DDD.WebService\obj\Debug\netcoreapp2.2\DDD.WebService.AssemblyInfo.cs
 C:\Users\FELIPEDECARVALHOALVE\source\repos\DDD_Project\DDD_Project\DDD.WebService\obj\Debug\netcoreapp2.2\DDD.WebService.RazorTargetAssemblyInfo.cache
+C:\Users\FELIPEDECARVALHOALVE\source\repos\DDD_Project\DDD_Project\DDD.WebService\bin\Debug\netcoreapp2.2\DDD.WebService.deps.json
+C:\Users\FELIPEDECARVALHOALVE\source\repos\DDD_Project\DDD_Project\DDD.WebService\bin\Debug\netcoreapp2.2\DDD.WebService.runtimeconfig.json
+C:\Users\FELIPEDECARVALHOALVE\source\repos\DDD_Project\DDD_Project\DDD.WebService\bin\Debug\netcoreapp2.2\DDD.WebService.runtimeconfig.dev.json
+C:\Users\FELIPEDECARVALHOALVE\source\repos\DDD_Project\DDD_Project\DDD.WebService\bin\Debug\netcoreapp2.2\DDD.WebService.dll
+C:\Users\FELIPEDECARVALHOALVE\source\repos\DDD_Project\DDD_Project\DDD.WebService\bin\Debug\netcoreapp2.2\DDD.WebService.pdb
+C:\Users\FELIPEDECARVALHOALVE\source\repos\DDD_Project\DDD_Project\DDD.WebService\bin\Debug\netcoreapp2.2\DDD.Infra.Data.Sql.pdb
+C:\Users\FELIPEDECARVALHOALVE\source\repos\DDD_Project\DDD_Project\DDD.WebService\bin\Debug\netcoreapp2.2\DDD.Domain.pdb
+C:\Users\FELIPEDECARVALHOALVE\source\repos\DDD_Project\DDD_Project\DDD.WebService\obj\Debug\netcoreapp2.2\DDD.WebService.csproj.CopyComplete
+C:\Users\FELIPEDECARVALHOALVE\source\repos\DDD_Project\DDD_Project\DDD.WebService\obj\Debug\netcoreapp2.2\DDD.WebService.dll
+C:\Users\FELIPEDECARVALHOALVE\source\repos\DDD_Project\DDD_Project\DDD.WebService\obj\Debug\netcoreapp2.2\DDD.WebService.pdb
