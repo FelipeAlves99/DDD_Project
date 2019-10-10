@@ -17,8 +17,4 @@
     <ProjectReference Include="..\DDD.Infra.Data.Sql\DDD.Infra.Data.Sql.csproj" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="Controllers\" />
-  </ItemGroup>
-
 </Project>
