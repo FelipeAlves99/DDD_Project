@@ -75,7 +75,7 @@ namespace DDD.WebService.Controllers
                 return BadRequest();
             try
             {
-                _updateItem.UpdateEstoqueItemService(item);
+                _updateItem.UpdateStorageService(item);
                 return Ok();
             }
             catch (Exception ex)
@@ -110,7 +110,7 @@ namespace DDD.WebService.Controllers
                 return BadRequest(ModelState);
             try
             {
-                _deleteItem.DeleteItemService(id);
+                _deleteItem.DeleteItemByIdService(id);
                 return Ok();
             }
             catch (Exception ex)

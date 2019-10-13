@@ -12,7 +12,7 @@ namespace DDD.Domain.Services.ItemService
             _itemRepository = itemRepository;
         }
 
-        public void DeleteitemService(int id)
+        public void DeleteItemByIdService(int id)
         {
             _itemRepository.DeleteItem(id);
         }

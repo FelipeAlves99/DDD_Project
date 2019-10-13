@@ -16,12 +16,12 @@ namespace DDD.Domain.Services.OrderService
             _orderRepository = orderRepository;
         }
 
-        public IList<Order> ConsultOrderByCompany(int companyId)
+        public IList<Order> ConsultOrderByCompanyService(int companyId)
         {
             return _orderRepository.GetAllOrdersCompany(companyId);
         }
 
-        public Order ConsultOrderById(int orderId)
+        public Order ConsultOrderByIdService(int orderId)
         {
             return _orderRepository.GetOrder(orderId);
         }

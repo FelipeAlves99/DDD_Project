@@ -2,6 +2,6 @@
 {
     public interface IDeleteItemService
     {
-        void DeleteitemService(int id);
+        void DeleteItemByIdService(int id);
     }
 }
