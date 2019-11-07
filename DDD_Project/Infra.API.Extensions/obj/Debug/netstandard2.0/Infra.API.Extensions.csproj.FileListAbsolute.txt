@@ -1,0 +1,9 @@
+C:\Users\FELIPEDECARVALHOALVE\source\repos\DDD_Project\DDD_Project\Infra.API.Extensions\bin\Debug\netstandard2.0\Infra.API.Extensions.deps.json
+C:\Users\FELIPEDECARVALHOALVE\source\repos\DDD_Project\DDD_Project\Infra.API.Extensions\bin\Debug\netstandard2.0\Infra.API.Extensions.dll
+C:\Users\FELIPEDECARVALHOALVE\source\repos\DDD_Project\DDD_Project\Infra.API.Extensions\bin\Debug\netstandard2.0\Infra.API.Extensions.pdb
+C:\Users\FELIPEDECARVALHOALVE\source\repos\DDD_Project\DDD_Project\Infra.API.Extensions\obj\Debug\netstandard2.0\Infra.API.Extensions.csproj.CoreCompileInputs.cache
+C:\Users\FELIPEDECARVALHOALVE\source\repos\DDD_Project\DDD_Project\Infra.API.Extensions\obj\Debug\netstandard2.0\Infra.API.Extensions.AssemblyInfoInputs.cache
+C:\Users\FELIPEDECARVALHOALVE\source\repos\DDD_Project\DDD_Project\Infra.API.Extensions\obj\Debug\netstandard2.0\Infra.API.Extensions.AssemblyInfo.cs
+C:\Users\FELIPEDECARVALHOALVE\source\repos\DDD_Project\DDD_Project\Infra.API.Extensions\obj\Debug\netstandard2.0\Infra.API.Extensions.dll
+C:\Users\FELIPEDECARVALHOALVE\source\repos\DDD_Project\DDD_Project\Infra.API.Extensions\obj\Debug\netstandard2.0\Infra.API.Extensions.pdb
+C:\Users\FELIPEDECARVALHOALVE\source\repos\DDD_Project\DDD_Project\Infra.API.Extensions\obj\Debug\netstandard2.0\Infra.API.Extensions.csprojAssemblyReference.cache

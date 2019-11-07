@@ -8,7 +8,7 @@ namespace DDD.Infra.Data.Sql.Data
         public AppConfiguration()
         {
             var configurationBuilder = new ConfigurationBuilder();
-            var path = Path.Combine(Directory.GetCurrentDirectory(), "appsettings.json");
+            var path = Path.Combine(Directory. GetCurrentDirectory(), "appsettings.json");
             configurationBuilder.AddJsonFile(path, false);
 
             var root = configurationBuilder.Build();

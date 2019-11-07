@@ -1,0 +1,9 @@
+C:\Users\FELIPEDECARVALHOALVE\source\repos\DDD_Project\DDD_Project\DDD.Client\bin\Debug\DDD.Client.exe.config
+C:\Users\FELIPEDECARVALHOALVE\source\repos\DDD_Project\DDD_Project\DDD.Client\bin\Debug\DDD.Client.exe
+C:\Users\FELIPEDECARVALHOALVE\source\repos\DDD_Project\DDD_Project\DDD.Client\bin\Debug\DDD.Client.pdb
+C:\Users\FELIPEDECARVALHOALVE\source\repos\DDD_Project\DDD_Project\DDD.Client\obj\Debug\DDD.Client.csprojAssemblyReference.cache
+C:\Users\FELIPEDECARVALHOALVE\source\repos\DDD_Project\DDD_Project\DDD.Client\obj\Debug\DDD.Client.Properties.Resources.resources
+C:\Users\FELIPEDECARVALHOALVE\source\repos\DDD_Project\DDD_Project\DDD.Client\obj\Debug\DDD.Client.csproj.GenerateResource.cache
+C:\Users\FELIPEDECARVALHOALVE\source\repos\DDD_Project\DDD_Project\DDD.Client\obj\Debug\DDD.Client.csproj.CoreCompileInputs.cache
+C:\Users\FELIPEDECARVALHOALVE\source\repos\DDD_Project\DDD_Project\DDD.Client\obj\Debug\DDD.Client.exe
+C:\Users\FELIPEDECARVALHOALVE\source\repos\DDD_Project\DDD_Project\DDD.Client\obj\Debug\DDD.Client.pdb

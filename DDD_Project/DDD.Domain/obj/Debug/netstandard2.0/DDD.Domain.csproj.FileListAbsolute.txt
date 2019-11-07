@@ -1,9 +1,9 @@
 C:\Users\FELIPEDECARVALHOALVE\source\repos\DDD_Project\DDD_Project\DDD.Domain\bin\Debug\netstandard2.0\DDD.Domain.deps.json
 C:\Users\FELIPEDECARVALHOALVE\source\repos\DDD_Project\DDD_Project\DDD.Domain\bin\Debug\netstandard2.0\DDD.Domain.dll
 C:\Users\FELIPEDECARVALHOALVE\source\repos\DDD_Project\DDD_Project\DDD.Domain\bin\Debug\netstandard2.0\DDD.Domain.pdb
-C:\Users\FELIPEDECARVALHOALVE\source\repos\DDD_Project\DDD_Project\DDD.Domain\obj\Debug\netstandard2.0\DDD.Domain.csprojAssemblyReference.cache
 C:\Users\FELIPEDECARVALHOALVE\source\repos\DDD_Project\DDD_Project\DDD.Domain\obj\Debug\netstandard2.0\DDD.Domain.csproj.CoreCompileInputs.cache
 C:\Users\FELIPEDECARVALHOALVE\source\repos\DDD_Project\DDD_Project\DDD.Domain\obj\Debug\netstandard2.0\DDD.Domain.AssemblyInfoInputs.cache
 C:\Users\FELIPEDECARVALHOALVE\source\repos\DDD_Project\DDD_Project\DDD.Domain\obj\Debug\netstandard2.0\DDD.Domain.AssemblyInfo.cs
 C:\Users\FELIPEDECARVALHOALVE\source\repos\DDD_Project\DDD_Project\DDD.Domain\obj\Debug\netstandard2.0\DDD.Domain.dll
 C:\Users\FELIPEDECARVALHOALVE\source\repos\DDD_Project\DDD_Project\DDD.Domain\obj\Debug\netstandard2.0\DDD.Domain.pdb
+C:\Users\FELIPEDECARVALHOALVE\source\repos\DDD_Project\DDD_Project\DDD.Domain\obj\Debug\netstandard2.0\DDD.Domain.csprojAssemblyReference.cache

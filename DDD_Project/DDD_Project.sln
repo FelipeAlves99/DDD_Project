@@ -7,11 +7,14 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DDD.Domain", "DDD.Domain\DD
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DDD.Client", "DDD.Client\DDD.Client.csproj", "{83429814-09E9-4CEA-B79B-939696730A75}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DDD.WebService", "DDD.WebService\DDD.WebService.csproj", "{B06097F8-C96E-4F58-9AC9-03FE212ADDFF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DDD.WebService", "DDD.WebService\DDD.WebService.csproj", "{B06097F8-C96E-4F58-9AC9-03FE212ADDFF}"
+	ProjectSection(ProjectDependencies) = postProject
+		{44012BAC-42DD-4736-BEAA-511809C11CF7} = {44012BAC-42DD-4736-BEAA-511809C11CF7}
+	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DDD.Infra.Data.Sql", "DDD.Infra.Data.Sql\DDD.Infra.Data.Sql.csproj", "{1593E4B4-2DD0-4ADA-A427-313403488CAF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DDD.Infra.Data.Sql", "DDD.Infra.Data.Sql\DDD.Infra.Data.Sql.csproj", "{1593E4B4-2DD0-4ADA-A427-313403488CAF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Infra.API.Extensions", "Infra.API.Extensions\Infra.API.Extensions.csproj", "{BDDA8FD3-0661-42B8-AB5C-D2E9DF4DF454}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Infra.API.Extensions", "Infra.API.Extensions\Infra.API.Extensions.csproj", "{BDDA8FD3-0661-42B8-AB5C-D2E9DF4DF454}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

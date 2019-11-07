@@ -46,7 +46,7 @@ namespace DDD.Infra.Data.Sql.Data.Context
 
         protected override void OnConfiguring (DbContextOptionsBuilder optionsBuilder)
         {
-            if (optionsBuilder.IsConfigured)
+            if (!optionsBuilder.IsConfigured)
                 optionsBuilder.UseSqlServer(appConfiguration.ConnectionString);
         }
 
