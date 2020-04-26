@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "iq9VGjAiR54LwhNiMdQzL8lnXQm6aSRVX6m+727KJJZvd6MDLfnGYZ1vdP6fyRk2FSwB1IX0dYpJN7QrfdScIg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\FELIPEDECARVALHOALVE\\source\\repos\\DDD_Project\\DDD_Project\\DDD.Domain\\DDD.Domain.csproj",
+  "expectedPackageFiles": [
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
