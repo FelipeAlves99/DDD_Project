@@ -1,9 +1,7 @@
 ﻿using DDD.Domain.Interfaces.IRepository;
 using DDD.Domain.Interfaces.IService;
-using DDD.Domain.Interfaces.IService.ItemServices;
 using DDD.Domain.Interfaces.IService.OrderServices;
 using DDD.Domain.Services;
-using DDD.Domain.Services.ItemService;
 using DDD.Domain.Services.OrderService;
 using DDD.Infra.Data.Sql.Data.Context;
 using DDD.Infra.Data.Sql.Repository;
@@ -58,10 +56,7 @@ namespace DDD.WebService
 
             #region Item DI
 
-            services.AddScoped<IAddItemService, AddItemService>();
-            services.AddScoped<IConsultItemService, ConsultItemService>();
-            services.AddScoped<IDeleteItemService, DeleteItemService>();
-            services.AddScoped<IUpdateItemService, UpdateItemService>();
+            services.AddScoped<IItemService, ItemService>();
 
             #endregion
 

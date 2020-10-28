@@ -7,7 +7,12 @@ namespace DDD.Domain.Services
 {
     public class CompanyService : ICompanyService
     {
-        private ICompanyRepository _companyRepository;
+        private readonly ICompanyRepository _companyRepository;
+
+        public CompanyService(ICompanyRepository companyRepository)
+        {
+            _companyRepository = companyRepository;
+        }
 
         public void AddCompany(Company company)
             => _companyRepository.PostCompany(company);
