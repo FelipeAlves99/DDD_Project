@@ -1,8 +1,8 @@
 ﻿using DDD.Domain.Interfaces.IRepository;
-using DDD.Domain.Interfaces.IService.CompanyServices;
+using DDD.Domain.Interfaces.IService;
 using DDD.Domain.Interfaces.IService.ItemServices;
 using DDD.Domain.Interfaces.IService.OrderServices;
-using DDD.Domain.Services.CompanyService;
+using DDD.Domain.Services;
 using DDD.Domain.Services.ItemService;
 using DDD.Domain.Services.OrderService;
 using DDD.Infra.Data.Sql.Data.Context;
@@ -52,10 +52,7 @@ namespace DDD.WebService
 
             #region Company DI
 
-            services.AddScoped<IAddCompanyService, AddCompanyService>();
-            services.AddScoped<IConsultCompanyService, ConsultCompanyService>();
-            services.AddScoped<IDeleteCompanyService, DeleteCompanyService>();
-            services.AddScoped<IUpdateCompanyService, UpdateCompanyService>();
+            services.AddScoped<ICompanyService, CompanyService>();
 
             #endregion
 
