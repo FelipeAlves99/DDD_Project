@@ -1,8 +1,6 @@
 ﻿using DDD.Domain.Interfaces.IRepository;
 using DDD.Domain.Interfaces.IService;
-using DDD.Domain.Interfaces.IService.OrderServices;
 using DDD.Domain.Services;
-using DDD.Domain.Services.OrderService;
 using DDD.Infra.Data.Sql.Data.Context;
 using DDD.Infra.Data.Sql.Repository;
 using Microsoft.AspNetCore.Builder;
@@ -62,9 +60,7 @@ namespace DDD.WebService
 
             #region Order DI
 
-            services.AddScoped<IAddOrderService, AddOrderService>();
-            services.AddScoped<IConsultOrderService, ConsultOrderService>();
-            services.AddScoped<IUpdateOrderService, UpdateOrderService>();
+            services.AddScoped<IOrderService, OrderService>();
 
             #endregion
 
