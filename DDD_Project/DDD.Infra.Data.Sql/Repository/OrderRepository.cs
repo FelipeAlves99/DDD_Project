@@ -10,7 +10,7 @@ namespace DDD.Infra.Data.Sql.Repository
     public class OrderRepository : IOrderRepository
     {
         private DDDProjectContext _context = new DDDProjectContext();
-        public IList<Order> GetAll()
+        public IList<Order> GetAllOrder()
         {
             return _context.Orders
                 .AsNoTracking()
@@ -19,7 +19,7 @@ namespace DDD.Infra.Data.Sql.Repository
                 .ToList();
         }
 
-        public IList<Order> GetAllOrdersCompany(int idCompany)
+        public IList<Order> GetAllOrderByCompany(int idCompany)
         {
             return _context.Orders
                 .AsNoTracking()
@@ -30,7 +30,7 @@ namespace DDD.Infra.Data.Sql.Repository
                 .ToList();
         }
 
-        public Order GetOrder(int id)
+        public Order GetOrderById(int id)
         {
             return _context.Orders
                 .AsNoTracking()

@@ -18,13 +18,13 @@ namespace DDD.Domain.Services
             => _orderRepository.PostOrder(order);
 
         public IList<Order> GetAllOrder()
-            => _orderRepository.GetAll();
+            => _orderRepository.GetAllOrder();
 
         public IList<Order> GetOrderByCompanyId(int companyId)
-            => _orderRepository.GetAllOrdersCompany(companyId);
+            => _orderRepository.GetAllOrderByCompany(companyId);
 
         public Order GetOrderById(int orderId)
-            => _orderRepository.GetOrder(orderId);
+            => _orderRepository.GetOrderById(orderId);
 
         public void UpdateOrderService(Order order)
             => _orderRepository.PatchOrder(order);

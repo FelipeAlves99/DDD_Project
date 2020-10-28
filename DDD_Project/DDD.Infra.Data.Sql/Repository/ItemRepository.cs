@@ -37,7 +37,7 @@ namespace DDD.Infra.Data.Sql.Repository
                 .ToList();
         }
 
-        public Item GetItembyId(int id)
+        public Item GetItemById(int id)
         {
             return _context.Items
                 .AsNoTracking()
@@ -46,7 +46,7 @@ namespace DDD.Infra.Data.Sql.Repository
                 .FirstOrDefault();
         }
 
-        public void Patchitem(IList<Item> items)
+        public void PatchItem(IList<Item> items)
         {
             for (int i = 0; i < items.Count; i++)
             {

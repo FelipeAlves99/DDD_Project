@@ -15,8 +15,8 @@ namespace DDD.Domain.Interfaces.IRepository
         /// <param name="order"></param>
         void PatchOrder(Order order);
 
-        IList<Order> GetAll();
-        Order GetOrder(int id);
-        IList<Order> GetAllOrdersCompany(int idCompany);
+        IList<Order> GetAllOrder();
+        Order GetOrderById(int id);
+        IList<Order> GetAllOrderByCompany(int idCompany);
     }
 }

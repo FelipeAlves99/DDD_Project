@@ -21,10 +21,10 @@ namespace DDD.Domain.Services
             => _itemRepository.GetAllItem();
 
         public Item GetItemById(int id)
-            => _itemRepository.GetItembyId(id);
+            => _itemRepository.GetItemById(id);
 
         public void PatchStorage(List<Item> item)
-            => _itemRepository.Patchitem(item);
+            => _itemRepository.PatchItem(item);
 
         public void PostItem(Item item)
             => _itemRepository.PostItem(item);

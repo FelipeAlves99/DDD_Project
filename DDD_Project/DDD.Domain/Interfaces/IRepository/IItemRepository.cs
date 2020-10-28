@@ -7,14 +7,14 @@ namespace DDD.Domain.Interfaces.IRepository
     {
         void PostItem(Item item);
         IList<Item> GetAllItem();
-        Item GetItembyId(int id);
+        Item GetItemById(int id);
         void PutItem(Item item);
 
         /// <summary>
         /// Updates the items stock
         /// </summary>
         /// <param name="items"></param>
-        void Patchitem(IList<Item> items);
+        void PatchItem(IList<Item> items);
 
         void DeleteItem(int id);
     }
